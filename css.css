@@ -1,0 +1,145 @@
+body{
+  background-color:	#ffe5af;
+  overflow: hidden;
+}
+#container{
+  width: 920px;
+  height: 920px;
+  position: absolute;
+}
+#wrap1{
+  width: 210px;
+  height: 920px;
+  left: 350px;
+  position: absolute;
+  transform: rotate(0deg);
+  animation: kates 40s infinite;
+  animation-timing-function: linear;
+}
+@keyframes kates {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+#wrap2{
+  width: 210px;
+  height: 920px;
+  left: 350px;
+  position: absolute;
+  transform: rotate(90deg);
+  animation: wcf 40s infinite;
+  animation-timing-function: linear;
+}
+@keyframes wcf {
+  0% {transform: rotate(90deg);}
+  100% {transform: rotate(450deg);}
+}
+#wrap3{
+  width: 210px;
+  height: 920px;
+  left: 350px;
+  position: absolute;
+  transform: rotate(180deg);
+  animation: sunys 40s infinite;
+  animation-timing-function: linear;
+}
+@keyframes sunys {
+  0% {transform: rotate(180deg);}
+  100% {transform: rotate(540deg);}
+}
+#wrap4{
+  width: 210px;
+  height: 920px;
+  left: 350px;
+  position: absolute;
+  transform: rotate(270deg);
+  animation: acw 40s infinite;
+  animation-timing-function: linear;
+}
+@keyframes acw {
+  0% {transform: rotate(270deg);}
+  100% {transform: rotate(630deg);}
+}
+.circle {
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+  border: 20px solid #ba7944;
+  position: absolute;
+  top: 90px;
+  left: 90px;
+}
+.item {
+  background: url("lgac.jpg") no-repeat;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  border: 6px solid #ba7944;
+  background-size: 350px 350px;
+  position: absolute;
+  top: 278px;
+  left: 278px;
+}
+.item1 {
+  background: url("kate.jpg") no-repeat;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #ba7944;
+  background-size: 200px 200px;
+  position: absolute;
+  transform: rotate(0deg);
+  animation: kates1 40s infinite;
+  animation-timing-function: linear;
+}
+@keyframes kates1 {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(-360deg);}
+}
+.item2 {
+  background: url("wcf.jpg") no-repeat;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #ba7944;
+  background-size: 200px 200px;
+  position: absolute;
+  transform: rotate(-90deg);
+  animation: wcf1 40s infinite;
+  animation-timing-function: linear;
+}
+@keyframes wcf1 {
+  0% {transform: rotate(-90deg);}
+  100% {transform: rotate(-450deg);}
+}
+.item3 {
+  background: url("suo.jpg") no-repeat;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #ba7944;
+  background-size: 200px 200px;
+  position: absolute;
+  transform: rotate(-180deg);
+  animation: sunys1 40s infinite;
+  animation-timing-function: linear;
+}
+@keyframes sunys1 {
+  0% {transform: rotate(-180deg);}
+  100% {transform: rotate(-540deg);}
+}
+.item4 {
+  background: url("acw.jpg") no-repeat;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #ba7944;
+  background-size: 200px 200px;
+  position: absolute;
+  transform: rotate(-270deg);
+  animation: acw1 40s infinite;
+  animation-timing-function: linear;
+}
+@keyframes acw1 {
+  0% {transform: rotate(-270deg);}
+  100% {transform: rotate(-630deg);}
+}
