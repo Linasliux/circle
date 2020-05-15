@@ -1,0 +1,116 @@
+body{
+  background-color:	#ffe5af;
+}
+#container{
+  width: 920px;
+  height: 920px;
+  left: 30%;
+  position: absolute;
+}
+#wrap1{
+  width: 210px;
+  height: 920px;
+  left: 350px;
+  position: absolute;
+  transform: rotate(0deg);
+  animation: kates 30s infinite;
+  animation-timing-function: linear;
+}
+@keyframes kates {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+#wrap2{
+  width: 210px;
+  height: 920px;
+  left: 350px;
+  position: absolute;
+  transform: rotate(120deg);
+  animation: sunys 30s infinite;
+  animation-timing-function: linear;
+}
+@keyframes sunys {
+  0% {transform: rotate(120deg);}
+  100% {transform: rotate(480deg);}
+}
+#wrap3{
+  width: 210px;
+  height: 920px;
+  left: 350px;
+  position: absolute;
+  transform: rotate(240deg);
+  animation: kiaulytes 30s infinite;
+  animation-timing-function: linear;
+}
+@keyframes kiaulytes {
+  0% {transform: rotate(240deg);}
+  100% {transform: rotate(600deg);}
+}
+.circle {
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+  border: 20px solid #ba7944;
+  position: absolute;
+  top: 90px;
+  left: 90px;
+}
+.item {
+  background: url("lgac.jpg") no-repeat;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background-size: 350px 350px;
+
+  position: absolute;
+  top: 285px;
+  left: 285px;
+}
+.item1 {
+  background: url("1.jpg") no-repeat;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #ba7944;
+  background-size: 200px 200px;
+  position: absolute;
+  transform: rotate(0deg);
+  animation: kates1 30s infinite;
+  animation-timing-function: linear;
+}
+@keyframes kates1 {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(-360deg);}
+}
+.item2 {
+  background: url("2.jpg") no-repeat;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #ba7944;
+  background-size: 200px 200px;
+  position: absolute;
+  transform: rotate(-120deg);
+  animation: sunys1 30s infinite;
+  animation-timing-function: linear;
+}
+@keyframes sunys1 {
+  0% {transform: rotate(-120deg);}
+  100% {transform: rotate(-480deg);}
+}
+.item3 {
+  background: url("3.jpg") no-repeat;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #ba7944;
+  background-size: 200px 200px;
+  position: absolute;
+  transform: rotate(-240deg);
+  animation: kiaulytes1 30s infinite;
+  animation-timing-function: linear;
+}
+@keyframes kiaulytes1 {
+  0% {transform: rotate(-240deg);}
+  100% {transform: rotate(-600deg);}
+}
