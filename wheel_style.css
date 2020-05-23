@@ -3,7 +3,7 @@ body{
   font-family: helvetica;
 }
 .flex-box{
-  background: url("img/cover.jpg") no-repeat;
+  background: url("cover.jpg") no-repeat;
   background-position: center;
   background-size: 100vw auto;
   width: 100%;
