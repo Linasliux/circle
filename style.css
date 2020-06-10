@@ -216,7 +216,7 @@ body{
 }
 /*-----------------------------------------------------*/
 /*adaptive plocio nustatymai plius mobilioji versija*/
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 768px) {
   .container{
     width: 100%;
     height: auto;
